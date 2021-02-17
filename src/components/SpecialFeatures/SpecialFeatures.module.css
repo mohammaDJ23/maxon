@@ -1,0 +1,97 @@
+.ContentContainer {
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 2.6%;
+}
+
+.MiddleSectionContainer {
+    position: relative;
+}
+
+.GreenShape {
+    position: absolute;
+    bottom: 35%;
+    left: 8%;
+    width: 10px;
+    height: 10px;
+    background-color: #9defff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #9defff;
+}
+
+@media screen and (max-width: 1580px) {
+    .GreenShape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .MiddleSectionContainer {
+        padding: 30px 20%;
+    }
+
+    .ContentContainer {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        row-gap: 2.6%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .ContentContainer {
+        row-gap: 2%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .MiddleSectionContainer {
+        padding: 30px 15%;
+    }
+
+    .ContentContainer {
+        column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .MiddleSectionContainer {
+        padding: 30px 8%;
+    }
+
+    .ContentContainer {
+        row-gap: 1.8%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .MiddleSectionContainer {
+        padding: 30px 8%;
+    }
+
+    .ContentContainer {
+        row-gap: 1.6%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .MiddleSectionContainer {
+        padding: 3% 20%;
+    }
+
+    .ContentContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .MiddleSectionContainer {
+        padding: 3% 10%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .MiddleSectionContainer {
+        padding: 3% 0;
+    }
+}

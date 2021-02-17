@@ -1,0 +1,32 @@
+.TextContainer h4 {
+    color: #112e41;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.PallidText {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .TextContainer {
+        padding-left: 10.8%;
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        z-index: 3;
+    }
+
+    .TextContainer h4,
+    .HeadTextBold h2 {
+        color: #f7f7f7;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .TextContainer {
+        padding-left: 8%;
+        padding-right: 8%;
+        grid-column: 1 / 5;
+    }
+}

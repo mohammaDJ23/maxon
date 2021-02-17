@@ -1,0 +1,29 @@
+.Image {
+    margin-right: 10px;
+}
+
+.SemiBoldText {
+    color: white;
+}
+
+.PallidText {
+    margin: 0;
+}
+
+.Text:nth-of-type(2) {
+    padding-right: 31%;
+}
+
+.Img {
+    padding-top: 6px;
+}
+
+.Img img {
+    margin: 4px;
+}
+
+@media screen and (max-width: 1850px) {
+    .Text:nth-of-type(2) {
+        padding-right: 5%;
+    }
+}

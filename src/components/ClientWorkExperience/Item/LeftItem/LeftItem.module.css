@@ -1,0 +1,62 @@
+.ContentContainer {
+    grid-template-columns: 49% 51%;
+}
+
+.TextContainer {
+    margin-left: 8%;
+    padding-right: 10%;
+}
+
+.PallidText {
+    padding-right: 60px;
+}
+
+.Image div {
+    transition: all 0.4s;
+}
+
+.Image div:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1850px) {
+    .TextContainer {
+        padding-right: 8%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ContentContainer {
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+    }
+
+    .TextContainer {
+        margin-left: 10.8%;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        z-index: 3;
+        padding-right: 3%;
+    }
+
+    .SubHeadText,
+    .LearnMore p,
+    .LearnMore p a {
+        color: #f7f7f7;
+    }
+
+    .Image {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+
+    .InnerImage::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(22, 43, 69, 0.822);
+    }
+}

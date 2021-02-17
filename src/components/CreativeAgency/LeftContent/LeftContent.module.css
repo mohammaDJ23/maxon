@@ -1,0 +1,61 @@
+.LeftContent {
+    position: relative;
+}
+
+.OrangeShape,
+.PinkShape,
+.MauveShape,
+.PinkShapeLight,
+.PinkShapeLighter {
+    position: absolute;
+}
+
+.PinkShape,
+.PinkShapeLight,
+.PinkShapeLighter {
+    width: 35px;
+    height: 35px;
+}
+
+.MauveShape,
+.OrangeShape {
+    z-index: 1;
+}
+
+.PinkShape,
+.PinkShapeLight,
+.PinkShapeLighter {
+    z-index: 2;
+}
+
+.OrangeShape {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 2.5px solid #ff7214;
+    transition: top 1s ease-out, left 1s ease-out, transform 1s ease-out, border-color 1s ease-out;
+}
+
+.PinkShape {
+    background-color: #d60f9a;
+    transition: top 1.8s ease-out, left 1.8s ease-out, transform 1.8s ease-out;
+}
+
+.PinkShapeLight {
+    background-color: #d60f9a7e;
+    transition: top 2.1s ease-out, left 2.1s ease-out, transform 2s ease-out;
+}
+
+.PinkShapeLighter {
+    background-color: #d60f9a42;
+    transition: top 2.3s ease-out, left 2.3s ease-out, transform 2.2s ease-out;
+}
+
+.MauveShape {
+    width: 10px;
+    height: 10px;
+    background-color: #a76091a2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #8b4175bb;
+    transition: bottom 3.5s ease-out, left 3.5s ease-out;
+}

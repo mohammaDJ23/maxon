@@ -1,0 +1,23 @@
+.LearnMore p {
+    color: #112e41;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.LearnMore p a {
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: x-large;
+}
+
+.LearnMore p a:hover {
+    color: #ff7214;
+}
+
+@media screen and (max-width: 762px) {
+    .LearnMore p {
+        font-size: 12px;
+    }
+}

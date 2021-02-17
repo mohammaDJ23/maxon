@@ -1,0 +1,16 @@
+.Input {
+    padding: 20px 24px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    transition: border 1s;
+}
+
+.Input, .input::placeholder {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #888888;
+}
+
+.Invalid {
+    border-color: red;
+}

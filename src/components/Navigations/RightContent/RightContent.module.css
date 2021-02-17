@@ -1,0 +1,14 @@
+.RightContent {
+    justify-self: end;
+}
+
+.RightContent ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .RightContent {
+        display: none;
+    }
+}

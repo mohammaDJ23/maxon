@@ -1,0 +1,60 @@
+.OrangeShape,
+.BlueShape,
+.HepaticShape,
+.HepaticShapeLight,
+.HepaticShapeLighter {
+    border-radius: 50%;
+}
+
+.OrangeShape,
+.BlueShape,
+.HepaticShape,
+.HepaticShapeLight,
+.HepaticShapeLighter{
+    position: absolute;
+}
+
+.BlueShape,
+.HepaticShape {
+    z-index: 1;
+}
+
+.OrangeShape {
+    z-index: 3;
+    width: 15px;
+    height: 15px;
+    background-color: #ff7214;
+    box-shadow: 0 0 20px 20px #ff7214;
+    transition: top 6s, left 6s;
+}
+
+.BlueShape {
+    width: 10px;
+    height: 10px;
+    background-color: #0e8aff;
+    box-shadow: 0 0 20px 20px #0e8aff;
+    transition: bottom 5s, left 5s;
+}
+
+.HepaticShape,
+.HepaticShapeLight,
+.HepaticShapeLighter {
+    width: 80px;
+    height: 80px;
+    border: 4px solid;
+}
+
+.HepaticShape {
+    border-color: #cc2665;
+    transition: top 1.3s ease-out, right 1.3s ease-out;
+}
+
+.HepaticShapeLight {
+    border-color: #cc266665;
+    transition: top 1.8s ease-out, right 1.8s ease-out;
+}
+
+.HepaticShapeLighter {
+    border-color: #cc26662a;
+    transition: top 2.3s ease-out, right 2.3s ease-out;
+}

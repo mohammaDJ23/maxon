@@ -1,0 +1,35 @@
+.PallidText {
+    margin: 40px 0 60px 0;
+    padding-left: 3%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.PallidText > div {
+  transition: all 1s cubic-bezier(0.7, 0, 0.175, 1);
+  width: 316%;
+}
+
+.PallidText > div > div {
+  width: 31%;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.PallidText p {
+    font-size: 18px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1140px) {
+    .PallidText p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .PallidText {
+        margin: 23% 0 60px 0;
+        padding-left: 0;
+    }
+}

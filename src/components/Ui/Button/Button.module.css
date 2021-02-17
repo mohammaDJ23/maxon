@@ -1,0 +1,19 @@
+.Button button {
+    width: 180px;
+    height: 60px;
+    color: white;
+    background-color: #ff7214;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Poppins;
+    border: 2px solid #ff7214;
+    font-weight: 600;
+    transition: 0.4s ease-out;
+}
+
+.Button button:hover {
+    background-color: inherit;
+    color: #ff7214;
+}

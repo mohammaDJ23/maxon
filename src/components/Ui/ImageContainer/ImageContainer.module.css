@@ -1,0 +1,9 @@
+.ImageContainer {
+    overflow: hidden;
+}
+
+.ImageContainer,
+.ImageContainer div {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,21 @@
+.Li:not(:last-child) {
+    padding-right: 62px;
+}
+
+.Li {
+    display: inline-block;
+}
+
+.Li a {
+    color: black;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.Li a:hover {
+    color: #ff7214;
+    cursor: pointer;
+}

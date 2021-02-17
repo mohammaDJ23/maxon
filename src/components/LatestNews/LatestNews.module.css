@@ -1,0 +1,23 @@
+.ContentContainer {
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    column-gap: 2.75%;
+}
+
+@media screen and (max-width: 1120px) {
+    .ContentContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        column-gap: unset;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ContentContainer {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .MiddleSectionContainer {
+        padding: 3% 0%;
+    }
+}

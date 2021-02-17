@@ -1,0 +1,25 @@
+.SectionContainer {
+    background-color: #162b45;
+}
+
+.ContentContainer {
+    grid-template-columns: 23% 21% 26% 23%;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ContentContainer {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ContentContainer {
+        text-align: center;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: unset;
+    }
+}

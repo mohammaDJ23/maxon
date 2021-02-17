@@ -1,0 +1,56 @@
+.Text div {
+    display: inline-block;
+}
+
+.Text div:nth-of-type(1) {
+    margin-right: 18px;
+}
+
+.Text div:nth-of-type(2) {
+    width: 120px;
+}
+
+.Text h1 {
+    margin: 32px 0 18px 0;
+    font-family: Roboto;
+    font-size: 60px;
+}
+
+.Text h1,
+.SemiBoldText {
+    color: white;
+}
+
+@media screen and (max-width: 1900px) {
+    .Text h1 {
+        font-size: 54px;
+    }
+
+    .SemiBoldText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .Text h1 {
+        font-size: 46px;
+    }
+
+    .SemiBoldText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .Text div:nth-of-type(1) {
+        margin-right: 10px;
+    }
+
+    .Text div:nth-of-type(2) {
+        width: 100px;
+    }
+
+    .Text div:nth-of-type(2) .SemiBoldText {
+        text-align: start;
+    }
+}

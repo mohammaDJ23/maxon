@@ -1,0 +1,21 @@
+.HeadTextBold {
+    margin: 35px 0 40px 0;
+}
+
+.HeadTextBold h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.HeadTextContainer {
+    margin-right: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+    .HeadTextContainer {
+        margin-right: 0;
+    }
+}

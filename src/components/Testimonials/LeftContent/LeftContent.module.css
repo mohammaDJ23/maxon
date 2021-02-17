@@ -1,0 +1,69 @@
+.LeftContent {
+    position: relative;
+    overflow: hidden;
+}
+
+.Image::after,
+.Play,
+.Play div img {
+    position: absolute;
+}
+
+.Image {
+    background: url('../../../assets/images/testimonials.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Image::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 48, 83, 0.486);
+    transition: all 0.4s;
+}
+
+.Image:hover::after {
+    background-color: rgba(18, 48, 83, 0.247);
+}
+
+.Play {
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Play div {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff7214;
+    box-shadow: 0 0 1px 10px #fa6f1267;
+    display: inline-block;
+    transition: all 0.4s;
+}
+.Play div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.Play div img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Play p {
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    cursor: default;
+}

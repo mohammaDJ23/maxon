@@ -1,0 +1,35 @@
+.TextContainer {
+    width: 60%;
+    height: auto;
+    padding: 115.5px 0;
+}
+
+@media screen and (max-width: 1600px) {
+    .TextContainer {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .TextContainer {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .TextContainer {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .TextContainer {
+        width: 84%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .TextContainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.ContentContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Form {
+    margin-left: 10px;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+@media screen and (max-width: 992px) {
+    .ContentContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .Form {
+        margin-left: 0;
+        margin-top: 35px;
+        grid-column-start: unset;
+        grid-column-end: unset;
+    }
+}

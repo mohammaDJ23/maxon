@@ -1,0 +1,22 @@
+.MiddleSectionContainer {
+    width: 100%;
+    padding: 20px 20.4%;
+}
+
+@media screen and (max-width: 1850px) {
+    .MiddleSectionContainer {
+        padding: 20px 17%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .MiddleSectionContainer {
+        padding: 20px 14%;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .MiddleSectionContainer {
+        padding: 20px 8%;
+    }
+}

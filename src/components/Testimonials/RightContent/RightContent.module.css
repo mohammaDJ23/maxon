@@ -1,0 +1,70 @@
+.RightContent {
+    padding: 6% 33.5% 6% 6%;
+    position: relative;
+}
+
+.OrangeShape {
+    position: absolute;
+    left: 34.5%;
+    top: 26%;
+    z-index: -1;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffd5b9;
+}
+
+@media screen and (max-width: 1850px) {
+    .RightContent {
+        padding: 6% 28% 6% 6%;
+    }
+} 
+
+@media screen and (max-width: 1600px) {
+    .RightContent {
+        padding: 6% 23% 6% 6%;
+    }
+
+    .OrangeShape {
+        left: 40%;
+    }
+} 
+
+@media screen and (max-width: 1380px) {
+    .RightContent {
+        padding: 6% 12% 6% 6%;
+    }
+
+    .OrangeShape {
+        left: 46%;
+        top: 24%;
+    }
+} 
+
+@media screen and (max-width: 1200px) {
+    .RightContent {
+        padding: 6%;
+    }
+
+    .OrangeShape {
+        left: 48%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .OrangeShape {
+        top: 20%;
+        left: 57%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .RightContent {
+        padding: 28px 8% 0 8%;
+        text-align: center;
+    }
+
+    .OrangeShape {
+        display: none;
+    }
+}

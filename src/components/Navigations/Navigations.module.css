@@ -1,0 +1,51 @@
+.NavigationSection {
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: #f7f7f7;
+    transition: background-color 1s;
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20.4%;
+}
+
+.ContentContainer {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 20% 80%;
+    position: relative;
+}
+
+.NewNavigationSection {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 1850px) {
+    .Container {
+        padding: 20px 17%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .Container {
+        padding: 20px 14%;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .Container {
+        padding: 20px 8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ContentContainer {
+        display: unset;
+    }
+}

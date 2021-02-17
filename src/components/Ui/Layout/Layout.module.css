@@ -1,0 +1,46 @@
+.MenuIcon {
+    position: fixed;
+    z-index: 300;
+    top: 28px;
+    right: -100%;
+    transform: rotate(180deg);
+    transition: right 1s cubic-bezier(0.7, 0, 0.175, 1);
+    width: 40px;
+    height: auto;
+}
+
+.FirstLine,
+.SecondLine,
+.ThirdLine {
+    height: 4px;
+    background-color: #112e41;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+
+.FirstLine, .ThirdLine {
+    width: 32px;
+}
+
+.SecondLine {
+    width: 26px;
+}
+
+.ThirdLine {
+    background-color: #ff7214;
+}
+
+.MenuIcon:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .MenuIcon {
+        right: 8%;
+    }
+
+    .MenuIconPos {
+        right: 25px;
+    }
+}

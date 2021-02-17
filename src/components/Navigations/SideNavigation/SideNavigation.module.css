@@ -1,0 +1,45 @@
+.SideNavigation {
+    position: fixed;
+    z-index: 100;
+    padding: 100px 0 0 25px;
+    right: -100%;
+    top: 0;
+    width: 270px;
+    height: 100%;
+    background-color: #f7f7f7;
+    box-shadow: -0.1px 0 50px -30px #112e41;
+    transition: 1s cubic-bezier(0.7, 0, 0.175, 1);
+}
+
+.SideNavigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.NavigationItems {
+    display: block;
+    margin-bottom: 28px;
+}
+
+.NavigationItems:not(:last-child) {
+    padding-right: 0;
+}
+
+.NavigationItems a {
+    font-size: 22px;
+    color: #112e41;
+}
+
+.SideNavigationPos {
+    right: 0%;
+}
+
+.SideNavigationBg {
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+    .SideNavigation {
+        display: none;
+    }
+}

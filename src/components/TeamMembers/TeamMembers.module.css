@@ -1,0 +1,31 @@
+.ContentContainer {
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    column-gap: 2.6%;
+}
+
+@media screen and (max-width: 1120px) {
+    .ContentContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: unset;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ContentContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: unset;
+        row-gap: unset;
+    }
+
+    .MiddleSectionContainer {
+        padding: 3% 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .MiddleSectionContainer {
+        padding: 3% 0;
+    }
+}

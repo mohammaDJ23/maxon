@@ -1,0 +1,31 @@
+.SemiBoldText {
+    margin: 0;
+}
+
+.PallidText {
+    margin: 0 0 8% 0;
+}
+
+.PallidText p {
+    margin: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .SemiBoldText {
+        font-size: 30px;
+    }
+
+    .PallidText p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .SemiBoldText {
+        font-size: 24px;
+    }
+
+    .PallidText p {
+        font-size: 14px;
+    }
+}

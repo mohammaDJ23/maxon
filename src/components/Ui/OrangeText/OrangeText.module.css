@@ -1,0 +1,15 @@
+.OrangeText p {
+    color: #ff7214;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 762px) {
+    .OrangeText p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,10 @@
+.ContentContainer {
+    grid-template-columns: 39% 61%;
+}
+
+@media screen and (max-width: 768px) {
+    .ContentContainer {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+}

@@ -1,0 +1,16 @@
+.FooterSections {
+    width: 100%;
+    background-color: #10233a;
+}
+
+.Container {
+    padding: 1px 20.4%;
+}
+
+.Content {
+    text-align: center;
+}
+
+.Content span {
+    color: #ff7214;
+}

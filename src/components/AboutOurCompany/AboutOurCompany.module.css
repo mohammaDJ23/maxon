@@ -1,0 +1,31 @@
+.LeftSectionContainer {
+    position: relative;
+}
+
+.MauveShape {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 10px;
+    height: 10px;
+    background-color: #a76091a2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #8b4175bb;
+}
+
+@media screen and (max-width: 1200px) {
+    .SectionContainer {
+        padding-top: 20px;
+    }
+
+    .MauveShape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ContentContainer {
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+    }
+}

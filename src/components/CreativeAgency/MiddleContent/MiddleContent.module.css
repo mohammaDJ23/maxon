@@ -1,0 +1,80 @@
+.MiddleContent {
+    position: relative;
+}
+
+.TextContainer {
+    width: 100%;
+}
+
+.MiddleContent span {
+    position: absolute;
+}
+
+.OrangeText,
+.HeadTextBolder,
+.PallidText {
+    overflow: hidden;
+}
+
+.OrangeText {
+    margin-bottom: 20px;
+}
+
+.HeadTextBolder h1 {
+    margin: 0;
+    color: #112e41;
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.3;
+    word-spacing: 3px;
+}
+
+.MiddleContent span {
+    z-index: 1;
+    width: 4px;
+    height: 4px;
+    background-color: #d60f9a;
+    box-shadow: 0px 0px 5px 3px #d60f9a;
+    transition: right 6s ease-out, bottom 6s ease-out;
+}
+
+.OrangeText p {
+    font-size: 18px;
+}
+
+.PallidText {
+    margin: 14px 0 26px 0;
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 1380px) {
+    .TextContainer {
+        width: 92%;
+        width: auto;
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .TextContainer {
+        padding: 90px 0 115.5px 11.3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .TextContainer {
+        padding: 40px 0 90px 11.4%;
+    }
+
+    .HeadTextBolder h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .TextContainer {
+        padding: 40px 8% 90px 8%;
+    }
+}

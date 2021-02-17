@@ -1,0 +1,23 @@
+.LeftContent {
+    justify-self: start;
+}
+
+.LeftContent h1 {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+}
+
+.LeftContent h1 span {
+    transition: color 1s;
+}
+
+@media screen and (max-width: 1024px) { 
+    .LeftContent h1 {
+        font-size: 28px;
+        top: 5px;
+    }   
+}

@@ -1,0 +1,15 @@
+.Logo,
+.Image {
+    display: inline-block;
+}
+
+.Image {
+    margin-right: 10%;
+    padding-left: 3%;
+}
+
+.SemiBoldText,
+.PallidText, 
+.PallidText p {
+    margin: 0;
+}
